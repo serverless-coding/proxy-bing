@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "https://www.bing.com/$1",
+      "status": 200
+    }
+  ]
+}
